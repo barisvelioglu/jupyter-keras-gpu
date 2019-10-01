@@ -17,7 +17,7 @@ This image is built on efforts made by very amazing people; I only tweaked it to
 - The docker-run.sh which is basically an easier & more practical way of building and running your container (at least for me!)
 
 # How to run the docker-run.sh script 
-- Just run the following: `./docker-run.sh --data <path_to_dataset_on_local_machine> --source <path_to_your_code>` --build. This command will do everything needed: 
+- Just run the following: `./docker-run.sh --data <path_to_dataset_on_local_machine> --source <path_to_your_code> --build` . This command will do everything needed: 
   - Build the image & its dependencies, 
   - Create the container and run Jupyter
 - Once finished; you can open your browser and navigate to http://localhost:8888/ and you enjoy your GPU-enabled tensorflow :-)
